@@ -55,7 +55,7 @@ __attribute__((objc_direct_members))
     
     UIStackView *verticalStackView = [[UIStackView alloc] initWithArrangedSubviews:@[
         self.horizontalStackView,
-        // self.pressButton
+        self.pressButton
     ]];
     
     verticalStackView.axis = UILayoutConstraintAxisVertical;
